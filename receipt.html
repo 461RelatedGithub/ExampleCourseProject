@@ -1,0 +1,16 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<h1>Receipt</h1>
+<p>Thank you for your purchase!</p>
+<ul>
+    {% for item in items %}
+    <li>{{ item }}</li>
+    {% endfor %}
+</ul>
+<p>Total: ${{ total_price }}</p>
+<p>Shipping Address: {{ address_line1 }}, {{ address_line2 }}, {{ city }}, {{ state }}, {{ postal_code }}, {{ country }}</p>
+<p>Card Number: {{ card_number }}</p>
+<p>Expiration Date: {{ expiration_date }}</p>
+<p>CVV: {{ cvv }}</p>
+{% endblock %}

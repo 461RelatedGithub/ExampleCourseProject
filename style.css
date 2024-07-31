@@ -1,0 +1,149 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fafafa;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+a {
+    color: #ff5a00;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+header {
+    background-color: #fff;
+    border-bottom: 1px solid #e4e4e4;
+    padding: 10px 0;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+    padding: 0 20px;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.logo-container {
+    padding: 0 20px;
+}
+
+.logo {
+    height: 40px; /* Adjust this as necessary */
+}
+
+nav {
+    margin: 0;
+    padding: 0 20px;
+    list-style: none;
+}
+
+nav ul {
+    display: flex;
+    gap: 10px;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav a {
+    color: #333;
+}
+
+nav a:hover {
+    color: #ff5a00;
+}
+
+section {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Form styles */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input, form select, form button {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #e4e4e4;
+    border-radius: 4px;
+}
+
+form button {
+    background-color: #ff5a00;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #e54e00;
+}
+
+/* Product listing styles */
+ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+li {
+    flex: 1 1 30%;
+    background-color: #fff;
+    border: 1px solid #e4e4e4;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+li h2 {
+    margin: 0 0 10px;
+}
+
+li p {
+    margin: 0 0 10px;
+}
+
+li a {
+    color: #ff5a00;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
